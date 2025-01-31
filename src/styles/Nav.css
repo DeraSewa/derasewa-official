@@ -1,0 +1,22 @@
+.nav-container{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container .logo{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.nav-container .nav-logo span{
+    color: var(--primary-color)
+}
+
+.nav-container .links{
+    display: flex;
+    gap: 10px;
+}

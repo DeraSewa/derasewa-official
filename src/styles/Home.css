@@ -1,0 +1,51 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.slogon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-container .slogon .primary{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.home-container .slogon .secondary{
+    width: 75%;
+    text-align: center;
+}
+
+.home-container .play-store-link{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.home-container .play-store-link i{
+    font-size:x-large;
+}
+
+.home-container .play-store-link .text-google-play{
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.home-container .play-store-link .text-get-it-on{
+    font-size: 12px;
+}
