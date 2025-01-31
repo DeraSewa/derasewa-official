@@ -1,6 +1,6 @@
 # DeraSewa Official
 
-This repository contains the landing webpage code of the DeraSewa, developed using Vite + React.
+This repository contains the official webpage code of the DeraSewa, developed using Vite + React.
 
 ## Technologies Utilized
 - **React**: JavaScript library for building user interfaces.
@@ -19,9 +19,13 @@ This repository contains the landing webpage code of the DeraSewa, developed usi
    ```sh
    git clone https://github.com/DeraSewa/derasewa-official.git
    cd derasewa-official
-2. Build the application:
+2. Install dependencies:
     ```sh
-    ./gradlew
+    npm install
+    ```
+3. Running the server:
+    ```sh
+    npm start
     ```
 
 <p align="center">
