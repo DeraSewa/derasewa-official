@@ -9,8 +9,8 @@ This repository contains the landing webpage code of the DeraSewa, developed usi
 ## Getting Started
 
 ### Prerequisites
-- Node.js (v14 or later)
-- npm (v6 or later)
+- Node.js (v22 or later)
+- npm (v11 or later)
 
 ## Getting Started
 
