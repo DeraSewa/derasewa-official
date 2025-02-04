@@ -64,16 +64,15 @@ form button:hover {
 }
 
 @media screen and (max-width: 770px) {
+    .contact-us-container {
+        width: 100%;
+    }
     .contact-us-container .title {
         font-size: 25px;
     }
 
-    form {
-        width: 100%;
-    }
-
     .form-group {
-        width: 80%;
+        width: 100%;
     }
     
 }

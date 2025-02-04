@@ -15,7 +15,7 @@
 .nav-container .second-row{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
     background-color: rgb(248, 248, 248);
     padding: 10px;
     border-radius: 5px;
@@ -23,7 +23,7 @@
 
 .nav-container .second-row a{
     border-bottom: 0.1px solid rgb(228, 228, 228);
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 700;
     color: black;
     text-decoration: none;
