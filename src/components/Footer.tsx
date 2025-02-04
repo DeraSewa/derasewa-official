@@ -4,18 +4,18 @@ import "../styles/Footer.css";
 const Footer: React.FC = () => {
   return (
     <div className="footer-container">
-        <div className="logo">DERA<span>SEWA</span></div>
-        <div className="links">
-            <Link to={""}>Terms and Condition</Link>
-            <Link to={""}>Privacy policy</Link>
-            <Link to={""}>Help and support</Link>
-            <Link to={""}>FAQs</Link>
-        </div>
-        <div className="socials">
-        <i className="fa-brands fa-facebook"></i>
-        <i className="fa-brands fa-github"></i>
-        <i className="fa-brands fa-linkedin"></i>
-        </div>
+      <Link to={"/"}><div className="logo">DERA<span>SEWA</span></div></Link>
+      <div className="links">
+        <Link to={"/term-condition"}>Terms and Condition</Link>
+        <Link to={"/privacy-policy"}>Privacy and Policy</Link>
+        <Link to={"/help-support"}>Help and Support</Link>
+        <Link to={"/faq"}>FAQs</Link>
+      </div>
+      <div className="socials">
+        <a href="https://facebook.com/derasewaofficial"><i className="fa-brands fa-facebook"></i></a>
+        <a href="https://github.com/derasewa"><i className="fa-brands fa-github"></i></a>
+        <a href="https://linkedin.com/derasewa"><i className="fa-brands fa-linkedin"></i></a>
+      </div>
     </div>
   )
 }

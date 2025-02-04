@@ -4,6 +4,7 @@
     width: 100%;
     height: 100%;
     justify-content: center;
+    align-content: center;
     align-items: center;
     gap: 10px;
 }
@@ -12,6 +13,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    word-break: break-all;
 }
 
 .home-container .slogon .primary{
@@ -22,6 +25,8 @@
 .home-container .slogon .secondary{
     width: 75%;
     text-align: center;
+    color: rgb(83, 83, 83);
+    font-size: 15px;
 }
 
 .home-container .play-store-link{
@@ -37,6 +42,12 @@
     cursor: pointer;
 }
 
+.home-container .play-store-link img{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
 .home-container .play-store-link i{
     font-size:x-large;
 }
@@ -48,4 +59,35 @@
 
 .home-container .play-store-link .text-get-it-on{
     font-size: 12px;
+}
+
+@media screen and (max-width: 770px){
+    .home-container .slogon .primary{
+        font-size: 25px;
+    }
+
+    .home-container .slogon .secondary{
+        font-size: 12px;
+    }
+
+    .home-container .play-store-link{
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 5px;
+    }
+
+    .home-container .play-store-link img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .home-container .play-store-link .text-google-play{
+        font-size: 12px;
+    }
+
+    .home-container .play-store-link .text-get-it-on{
+        font-size: 10px;
+    }
+    
 }

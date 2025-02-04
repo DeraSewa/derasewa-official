@@ -1,24 +1,46 @@
 .footer-container{
     display: flex;
     width: 100%;
+    height: 100%;
     justify-content: space-between;
-    background-color: black;
-    color: white;
     align-items: center;
 }
 
 .footer-container .logo{
     font-size: 20px;
     font-weight: bolder;
+    cursor: pointer;
+}
+
+.footer-container a{
+    color: black;
+    text-decoration: none;
 }
 
 .footer-container .links{
     display: flex;
-    gap: 10px;
+    gap: 12px;
+    font-size: 14px;
+}
+
+.footer-container .links a{
+    color: rgb(132, 132, 132);
+    text-decoration: underline;
 }
 
 .footer-container .socials{
     display: flex;
     gap: 10px;
     font-size: 20px;
+}
+
+.footer-container .socials a{
+    cursor: pointer;
+    color: black;
+}
+
+@media screen and (max-width: 770px){
+    .footer-container .links{
+        display: none;
+    }
 }

@@ -5,12 +5,29 @@
   height: 100vh;
 }
 
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-bottom: 0.1px solid rgb(240, 240, 240);
+}
+
 main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-grow: 1;
+  padding: 30px;
 }
 
 footer{
-  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 0.1px solid rgb(240, 240, 240);
   padding: 20px;
   padding-left: 30px;
   padding-right: 30px;
