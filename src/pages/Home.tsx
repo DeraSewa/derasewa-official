@@ -1,4 +1,5 @@
 import "../styles/Home.css";
+import googlePlayStore from "../assets/google-play-store.png";
 
 const Home: React.FC = () => {
     return (
@@ -8,7 +9,7 @@ const Home: React.FC = () => {
                 <div className="secondary">Host and Discover Rooms and Apartments with Ease, Without the Broker Hassle</div>
             </div>
             <div className="play-store-link">
-                <i className="fa-brands fa-google-play"></i>
+                <img src={googlePlayStore} alt="" />
                 <div>
                     <div className="text-get-it-on">GET IT ON</div>
                     <div className="text-google-play">Google Play</div>
