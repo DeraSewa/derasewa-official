@@ -1,4 +1,4 @@
-.term-condition-container{
+.term-condition-container {
     display: flex;
     flex-direction: column;
     width: 70%;
@@ -9,17 +9,18 @@
     gap: 10px;
 }
 
-.term-condition-container .title{
+.term-condition-container .title {
     font-size: 35px;
     font-weight: bolder;
 }
 
-@media screen and (max-width: 770px){
-    .term-condition-container{
+@media screen and (max-width: 770px) {
+    .term-condition-container {
         width: 100%;
     }
-    .term-condition-container .title{
+
+    .term-condition-container .title {
         font-size: 25px;
     }
-    
+
 }

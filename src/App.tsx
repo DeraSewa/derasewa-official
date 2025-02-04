@@ -23,9 +23,9 @@ const App: React.FC = () => {
             <Route index element={<Home />} />
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/contact-us" element={<ContactUs />} />
-            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-            <Route path="/term-condition" element={<TermCondition />} />
-            <Route path="/help-support" element={<HelpSupport />} />
+            <Route path="/privacy-and-policy" element={<PrivacyPolicy />} />
+            <Route path="/term-and-condition" element={<TermCondition />} />
+            <Route path="/help-and-support" element={<HelpSupport />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="*" element={"404 page not found"} />
           </Routes>

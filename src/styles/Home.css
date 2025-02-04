@@ -1,4 +1,4 @@
-.home-container{
+.home-container {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -9,27 +9,26 @@
     gap: 10px;
 }
 
-.slogon{
+.slogon {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    word-break: break-all;
 }
 
-.home-container .slogon .primary{
+.home-container .slogon .primary {
     font-size: 35px;
     font-weight: bolder;
 }
 
-.home-container .slogon .secondary{
+.home-container .slogon .secondary {
     width: 75%;
     text-align: center;
     color: rgb(83, 83, 83);
     font-size: 15px;
 }
 
-.home-container .play-store-link{
+.home-container .play-store-link {
     display: flex;
     align-items: center;
     color: white;
@@ -40,54 +39,51 @@
     border-radius: 20px;
     gap: 10px;
     cursor: pointer;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
-.home-container .play-store-link img{
+.home-container .play-store-link img {
     width: 40px;
     height: 40px;
     border-radius: 10px;
 }
 
-.home-container .play-store-link i{
-    font-size:x-large;
+.home-container .play-store-link .text-get-it-on {
+    font-size: 12px;
 }
 
-.home-container .play-store-link .text-google-play{
+.home-container .play-store-link .text-google-play {
     font-weight: bolder;
     font-size: 15px;
 }
 
-.home-container .play-store-link .text-get-it-on{
-    font-size: 12px;
-}
-
-@media screen and (max-width: 770px){
-    .home-container .slogon .primary{
-        font-size: 19px;
+@media screen and (max-width: 770px) {
+    .home-container .slogon .primary {
+        font-size: 20px;
     }
 
-    .home-container .slogon .secondary{
+    .home-container .slogon .secondary {
         font-size: 12px;
     }
 
-    .home-container .play-store-link{
+    .home-container .play-store-link {
         padding: 5px;
         padding-left: 10px;
         padding-right: 10px;
         gap: 5px;
     }
 
-    .home-container .play-store-link img{
+    .home-container .play-store-link img {
         width: 30px;
         height: 30px;
     }
 
-    .home-container .play-store-link .text-google-play{
+    .home-container .play-store-link .text-get-it-on {
+        font-size: 10px;
+    }
+
+    .home-container .play-store-link .text-google-play {
         font-size: 12px;
     }
 
-    .home-container .play-store-link .text-get-it-on{
-        font-size: 10px;
-    }
-    
 }

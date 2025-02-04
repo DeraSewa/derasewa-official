@@ -27,7 +27,8 @@ form {
     display: flex;
 }
 
-form input, form textarea {
+form input,
+form textarea {
     width: 100%;
     padding: 10px;
     border-radius: 5px;
@@ -35,7 +36,8 @@ form input, form textarea {
     font-family: "Poppins", sans-serif;
 }
 
-form input::placeholder, form textarea::placeholder {
+form input::placeholder,
+form textarea::placeholder {
     font-family: "Poppins", sans-serif;
 }
 
@@ -67,6 +69,7 @@ form button:hover {
     .contact-us-container {
         width: 100%;
     }
+
     .contact-us-container .title {
         font-size: 25px;
     }
@@ -74,5 +77,5 @@ form button:hover {
     .form-group {
         width: 100%;
     }
-    
+
 }

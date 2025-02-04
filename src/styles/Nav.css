@@ -1,88 +1,80 @@
-.nav-container{
-    height: 100%;
+.nav-container {
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
 
-.nav-container .first-row{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav-container .second-row{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    background-color: rgb(248, 248, 248);
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.nav-container .second-row a{
-    border-bottom: 0.1px solid rgb(228, 228, 228);
-    font-size: 15px;
-    font-weight: 700;
+.nav-container a {
     color: black;
     text-decoration: none;
 }
 
-.nav-container .logo{
-    font-size: 30px;
+
+.nav-container .first-row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-container .first-row .logo {
+    font-size: 25px;
     font-weight: bolder;
     cursor: pointer;
     color: black;
     text-decoration: none;
 }
 
-.nav-container a{
-    color: black;
-    text-decoration: none;
-}
-
-.nav-container .nav-logo span{
-    color: var(--primary-color)
-}
-
-.nav-container .links{
+.nav-container .links {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
 
-.nav-container .menu{
+.nav-container .menu {
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
     display: none;
 }
 
-.nav-container .links a{
-    color: black;
-    text-decoration: none;
+.nav-container .first-row .links a {
     font-weight: 600;
 }
 
-@media screen and (max-width: 770px){
-    .nav-container .links{
+.nav-container .second-row {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: rgb(248, 248, 248);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav-container .second-row a {
+    border-bottom: 0.1px solid rgb(200, 200, 200);
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 770px) {
+    .nav-container .first-row .links {
         display: none;
     }
 
-    .nav-container .menu{
+    .nav-container .menu {
         display: block;
-    }
-    
-    .nav-container .logo{
-        font-size: 20px;
     }
 }
 
-@media screen and (min-width: 770px){
-   .nav-container .second-row{
-       display: none;
-   }
-    
+@media screen and (min-width: 770px) {
+    .nav-container .second-row {
+        display: none;
+    }
+
 }

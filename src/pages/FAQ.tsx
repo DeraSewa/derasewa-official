@@ -65,7 +65,7 @@ const FAQ: React.FC = () => {
                 <li>A: You can earn Deracoin by referring friends to use DeraSewa. For each successful referral, you will receive a certain amount of Deracoin.</li>
 
                 <br />
-            
+
             </div>
             <div>If you have any other questions, please visit our Help and Support section or contact our support team.</div>
         </div>

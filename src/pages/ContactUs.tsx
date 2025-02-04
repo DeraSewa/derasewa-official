@@ -14,7 +14,7 @@ const ContactUs: React.FC = () => {
 
     return (
         <div className="contact-us-container">
-            <div className="title">Contact Us</div>
+            <div className="title">CONTACT US</div>
             <form onSubmit={handleSubmit}>
                 <div className="form-group">
                     <input

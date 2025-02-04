@@ -3,7 +3,7 @@ import "../styles/TermCondition.css";
 const TermCondition: React.FC = () => {
     return (
         <div className="term-condition-container">
-            <div className="title">Terms and Conditions</div>
+            <div className="title">TERMS AND CONDITIONS</div>
             <div className="content">
                 Welcome to DeraSewa. By using our app, you agree to comply with the following terms and conditions. Please read them carefully.
 

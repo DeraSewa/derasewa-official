@@ -4,11 +4,11 @@ import "../styles/Footer.css";
 const Footer: React.FC = () => {
   return (
     <div className="footer-container">
-      <Link to={"/"}><div className="logo">DERA<span>SEWA</span></div></Link>
+      <div className="logo"><Link to={"/"}>DERA<span>SEWA</span></Link></div>
       <div className="links">
-        <Link to={"/term-condition"}>Terms and Condition</Link>
-        <Link to={"/privacy-policy"}>Privacy and Policy</Link>
-        <Link to={"/help-support"}>Help and Support</Link>
+        <Link to={"/term-and-condition"}>Terms and Condition</Link>
+        <Link to={"/privacy-and-policy"}>Privacy and Policy</Link>
+        <Link to={"/help-and-support"}>Help and Support</Link>
         <Link to={"/faq"}>FAQs</Link>
       </div>
       <div className="socials">
