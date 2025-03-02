@@ -13,8 +13,6 @@ This repository contains the official webpage code of the DeraSewa, developed us
 - Node.js (v22 or later)
 - npm (v11 or later)
 
-## Getting Started
-
 ### Installation
 1. Clone the repository:
    ```sh
